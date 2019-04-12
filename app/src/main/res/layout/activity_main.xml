@@ -9,27 +9,28 @@
         android:background="@drawable/background_gradient">
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/hihat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:src="@drawable/hi_hat"
-        tools:layout_editor_absoluteX="26dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="404dp" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/snare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/snare"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="404dp" />
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="403dp" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/bass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/basso"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="477dp" />
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="481dp" />
 
 </android.support.constraint.ConstraintLayout>
