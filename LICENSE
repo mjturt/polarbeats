@@ -1,0 +1,1613 @@
+                                      MOVESENSE
+
+                   SOFTWARE DEVELOPMENT (“SDK”) LICENSE
+
+                                           AND
+
+                    EVALUATION AGREEMENT (“AGREEMENT”)
+
+     THIS IS A LEGAL AGREEMENT BETWEEN YOU (“LICENSEE”, OR “YOU”) AND
+     AMER SPORTS DIGITAL SERVICES OY (“AMER SPORTS DIGITAL”) FOR THE
+     LICENSED TECHNOLOGY AS DESCRIBED HEREIN. PLEASE REVIEW THE
+     FOLLOWING TERMS CAREFULLY. BY CLICKING THE "ACCEPT" BUTTON
+     BELOW, WHERE THIS OPTION IS AVAILABLE OR DOWNLOADING THE
+     LICENSED TECHNOLOGY AND ACTUALLY USING IT, YOU ACCEPT THE TERMS
+     AND CONDITIONS OF THIS AGREEMENT AND AGREE TO BE BOUND BY THEM.
+     IN THE EVENT THAT YOU DO NOT AGREE TO THESE TERMS, YOU MUST NOT
+     DOWNLOAD, INSTALL OR IN ANY OTHER WAY USE THE LICENSED
+     TECHNOLOGY. THIS COPY OF THE LICENSED TECHNOLOGY IS LICENSED TO
+     YOU AS THE END USER OR TO YOUR EMPLOYER OR ANOTHER THIRD PARTY
+     AUTHORIZED TO PERMIT YOUR USE OF THE LICENSED TECHNOLOGY. YOU
+     AGREE THAT THIS AGREEMENT IS ENFORCEABLE LIKE ANY WRITTEN
+     NEGOTIATED AGREEMENT SIGNED BY YOU AND THAT YOUR USE OF THE
+     LICENSED TECHNOLOGY CONSTITUTES ACCEPTANCE OF THE AGREEMENT
+     TERMS. IN THE EVENT THAT YOU DO NOT AGREE TO THESE TERMS, YOU
+     MUST CLICK THE "REJECT" BUTTON WHERE THIS OPTION IS MADE
+     AVAILABLE AND/OR STOP USING AND ERASE OR OTHERWISE DESTROY ALL
+     POSSIBLE COPIES OF THE LICENSED TECHNOLOGY IN YOUR POSSESSION.
+
+
+1.   DEFINITIONS
+
+     In this Agreement, the following terms have the following meanings:
+
+     “Confidential Information” means: (a) Licensed Technology; (b) any technical,
+     business, and/or other information relating to the business of Amer Sports Digital, its
+     affiliates, subcontractors or the collaboration hereunder, their facilities, products,
+     techniques and processes; and (c) any other information disclosed by Amer Sports
+     Digital or its affiliates to the Licensor.
+
+     “Licensed Technology” means, collectively, the Product, software in object code and
+     in source code if expressly specified hereunder, specifications, design materials, API
+     information and other IP disclosed by Amer Sports Digital and licensed to Licensee
+     hereunder for the Purpose including, without limitation, all changes, amendments,
+     modifications and derivative works thereof. For clarity, the licensed technology shall
+     include but not be limited to software, Confidential Information and any other
+     technology or IP as defined in Appendix 1.
+
+     “Open Source SW” shall mean any software included in or to be otherwise utilized
+     in connection with the Deliverables, subject to the terms and conditions of http://www-
+     opensource.org/docs/definition.php and including, without limitation licenses at the
+     “Product” means the Movesense sensor provided for the Licensee as a sample under
+     this Agreement for the Purpose, if applicable.
+
+     “Purpose” means the Licensees’ evaluation, testing and potential development of a
+     software application (“Application”) by using Licensed Technology strictly for the
+     purposes of the Products and Amer Sports Digital business relating thereto. The
+     possible commercialization of the Application, the decision on which will be at sole
+     discretion of Amer Sports Digital, is subject to a separate agreement.
+
+2.   LICENSE AND USE
+
+     The software included in the Licensed Technology includes an object code
+     components, source code components and third party components.
+
+     Subject to the terms and conditions of this Agreement Amer Sports Digital hereby
+     grants to Licensee, and Licensee hereby accepts, a personal, non-transferrable, non-
+     sub licensable, non-exclusive, worldwide, limited license to use the Licensed
+     Technology, strictly for the Purpose. The aforesaid shall not, however, apply to third
+     party components that are subject to separate and differing license terms attached as
+     Appendix 2 this Agreement. The Licensee shall be fully liable for complying with such
+     third party license terms and shall defend, indemnify and hold Amer Sports Digital and
+     its affiliated companies harmless against any claims arising from the Licensee’s use
+     of such third party components.
+
+3.   RESTRICTIONS
+
+     Licensee shall have no right to disclose, sell, market, commercialise, sub-license, re-
+     license or otherwise transfer to any other party whatsoever the Licensed Technology
+     or any rights in the Licensed Technology.
+
+     In no event may Licensee copy, export, re-export, sub-license, rent, lease or use the
+     Licensed Technology in any manner inconsistent with or not expressly permitted
+     under this Agreement.
+
+     Licensee shall not reverse engineer, reverse compile, or disassemble the Licensed
+     Technology.
+
+     Licensee shall not use or disclose the Licensed Technology for any purpose other
+     than the Purpose. In particular, the Licensee shall not incorporate or integrate the
+     Licensed Technology or any part thereof in any products or services.
+
+     To the extent the Licensee is entitled to modify the Licensed Technology, the right to
+     modify shall strictly apply only to the components of the Licensed Technology that are
+     provided to the Licensee in source code.
+
+     Licensee shall ensure that Open Source SW may only be utilized as agreed in the
+     Agreement and after a separate open source due diligence conducted in a
+     professional and workmanlike manner. On the basis of such due diligence, Licensee
+     shall ensure, among others, that:
+     d) the Applications shall not contain any Open Source SW which would create any
+        obligations, rights or immunities under any Open Source SW licenses in respect
+        of Licensed Technology, Amer Sports Digital intellectual property rights or
+        requirements to disclose source code of Licensed Technology, Products or any
+        other Amer Sports Digital products or services or other adverse effects on the
+        commercial interests of Amer Sports Digital;
+     e) there are no security or other similar risks arising out of or relating to the
+        Applications.
+
+     Upon request of Amer Sports Digital, Licensee shall provide Amer Sports Digital:
+
+     a) all reasonable available documentation, copyright notices, source codes and other
+        patent and technical
+     b) information on the performance of the due diligence process and tools utilized by
+        Licensee in such process;
+     c) information on notices and other materials necessary for Amer Sports Digital to
+        comply with all applicable Open Source SW license Terms.
+
+     Amer Sports Digital may further provide its own due diligence procedure regarding
+     Open Source SW.
+
+     To the extent any actual or potential risks or other adverse effects might be detected
+     for Amer Sports’ business purposes, Licensee agrees to implement, at its own
+     expense, such changes as reasonably required by Amer Sports Digital to remedy the
+     situation.
+
+     Notwithstanding anything to the contrary, this due diligence shall not in any manner
+     limit or restrict liabilities of Licensee specified in the Agreement including those
+     concerning warranties, intellectual property rights and indemnities.
+
+4.   OWNERSHIP
+
+     The Licensed Technology and any Confidential Information of Amer Sports Digital,
+     and all rights therein (including without limitation any intellectual property rights
+     relating thereto), are owned solely by Amer Sports Digital. All Amer Sports Digital's
+     trademarks, service marks, trade names, logos or other words or symbols are and will
+     remain the exclusive property of Amer Sports Digital and any use by Licensee of the
+     trademarks and/or logos of Amer Sports Digital is subject to a separate agreement
+     between Amer Sports Digital and Licensee.
+
+     Except as otherwise expressly stated in this Agreement, no express or implied rights
+     or licenses under Amer Sports Digital’s or its group companies patents, copy rights,
+     trademarks, trade secrets or other intellectual property rights are granted to the
+     Licensee.
+
+     Licensee acknowledges that Amer Sports Digital is currently developing or may
+     develop technologies and products in the future that have or may have design and/or
+     functionality similar to products that Licensee may develop based on your license
+     herein. Nothing in this Agreement shall impair, limit or curtail Amer Sports Digital's
+     right to continue with its development, maintenance and/or distribution of Amer Sports
+     Digital's technology or products. Licensee agrees that it shall not assert in any way
+5.   FEEDBACK
+
+     The Licensee is not obliged to provide Amer Sports Digital with any feedback under
+     this Agreement. To the extent the Licensee provides Amer Sports Digital with any
+     feedback relating to the Licensed Technology (including without limitation comments,
+     suggestions and information related to usability, performance, functions, bug reports
+     and test results of the Licensed Technology), Amer Sports Digital shall receive a
+     worldwide, non-exclusive, sub-licensable, irrevocable, royalty-free and perpetual
+     license to use, modify, reproduce, make, have made, sell, offer to sell, distribute,
+     lease, import, export and otherwise dispose of and utilize such feedback for its own or
+     group companies internal and external business purposes. No compensation will be
+     paid for the Licensee with respect to the feedback.
+
+6.   TECHNICAL SUPPORT
+
+     Amer Sports Digital has no obligation to furnish Licensee with any technical support
+     whatsoever. Any such support is subject to a separate agreement between the
+     Parties.
+
+7.   NO WARRANTY
+
+     THE LICENSED TECHNOLOGY IS PROVIDED "AS IS" WITHOUT WARRANTY OF
+     ANY KIND EXPRESS OR IMPLIED AND NEITHER AMER SPORTS DIGITAL, ITS
+     LICENSORS OR AFFILIATES NOR THE COPYRIGHT HOLDERS MAKE ANY
+     REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+     BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY OR FITNESS
+     FOR A PARTICULAR PURPOSE OR THAT THE LICENSED TECHNOLOGY WILL
+     NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR
+     OTHER RIGHTS. THERE IS NO WARRANTY BY AMER SPORTS DIGITAL OR BY
+     ANY OTHER PARTY THAT THE FUNCTIONS, DESIGN, FEATURES OR
+     SPECIFICATIONS CONTAINED IN THE LICENSED TECHNOLOGY WILL MEET
+     THE REQUIREMENTS OF LICENSEE OR THAT THE OPERATION OF THE
+     LICENSED TECHNOLOGY WILL BE UNINTERRUPTED OR ERROR-FREE.
+     LICENSEE ASSUMES ALL RESPONSIBILITY AND RISK FOR THE SELECTION OF
+     THE LICENSED TECHNOLOGY TO ACHIEVE LICENSEE'S INTENDED RESULTS
+     AND FOR THE INSTALLATION, USE AND RESULTS OBTAINED FROM IT. AMER
+     SPORTS DIGITAL ESPECIALLY EXCLUDES ANY LIABILITY RESULTING FROM
+     ANY THIRD PARTY SOFTWARE OR COMPONENTS INCLUDED IN THE
+     LICENSED TECHNOLOGY.
+
+8.   LIMITATION OF LIABILITY AND INDEMNITY
+
+     IN NO EVENT SHALL THE TOTAL AGGREGATE LIABILITY OF AMER SPORTS
+     DIGITAL, ITS EMPLOYEES OR LICENSEES OR AFFILIATES EXCEED FIFTY (50)
+     EUROS.
+
+     IN NO EVENT SHALL AMER SPORTS DIGITAL, ITS EMPLOYEES OR LICENSEES
+     OR AFFILIATES BE LIABLE FOR ANY LOST PROFITS, REVENUE, SALES, DATA
+     OR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES,
+     PROPERTY DAMAGE, PERSONAL INJURY, INTERRUPTION OF BUSINESS,
+     SPORTS DIGITAL OR ITS EMPLOYEES OR LICENSEES OR AFFILIATES ARE
+     ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME
+     COUNTRIES/STATES/ JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR
+     LIMITATION OF LIABILITY, BUT MAY ALLOW LIABILITY TO BE LIMITED, IN SUCH
+     CASES, AMER SPORTS DIGITAL, ITS EMPLOYEES OR LICENSORS OR
+     AFFILIATES' LIABILITY SHALL BE LIMITED TO FIFTY (50) EURO.
+
+     LICENSEE UNDERTAKES TO INDEMNIFY, HOLD HARMLESS AND DEFEND
+     AMER SPORTS DIGITAL AND ITS DIRECTORS, OFFICERS, AFFILIATES,
+     SHAREHOLDERS, EMPLOYEES AND AGENTS FROM AND AGAINST ANY
+     CLAIMS OR LAWSUITS, INCLUDING ATTORNEY'S FEES, THAT ARISE OR
+     RESULT OF THE LICENSEE’S EXECUTION OF THIS AGREEMENT AND
+     BUSINESS HEREUNDER WHICH ARE NOT SOLELY DUE TO CAUSES FOR
+     WHICH AMER SPORTS DIGITAL IS RESPONSIBLE.
+
+9.   CONFIDENTIALITY
+
+     It may be necessary and desirable that Amer Sports Digital or any of its affiliates within
+     the Amer Sports group of companies disclose Confidential Information to the
+     Licensee, however, on a strict need-to-know basis only, and subject to similar
+     confidentiality restrictions as required under this Agreement.
+
+     Licensee acknowledges that the Confidential Information any/all copies thereof,
+     translations and partial copies shall be considered as information of Amer Sports
+     Digital and title thereto remains in Amer Sports Digital.
+
+     Licensee shall keep the Confidential Information strictly confidential and shall not
+     disclose it to third parties (including its subsidiaries, parent or affiliated companies)
+     without Amer Sports Digital’s prior written permission.
+
+     Confidential Information received hereunder shall not be used for any purpose other
+     than the Purpose without Amer Sports Digital’s prior written permission. The Licensee
+     shall restrict access to Confidential Information to only those of its employees to whom
+     such access is necessary for carrying out the Purpose and advise such employees of
+     the obligations assumed herein.
+
+     Neither Licensee, nor Licensee's employees shall sell, transfer, publicly disclose,
+     display or otherwise make available to third parties any portion of the Licensed
+     Technology or any other Confidential Information. Licensee agrees to secure and
+     protect Confidential Information with the same degree of care that Licensee uses to
+     secure and protect its own confidential and proprietary information of a similar nature,
+     and to take all reasonably appropriate actions with its employees who are permitted
+     access thereto, to satisfy its obligations hereunder.
+
+     Upon its discovery of any unauthorized possession, use or knowledge of the Licensed
+     Technology arising out of Licensee's possession of the Licensed Technology,
+     Licensee shall promptly notify Amer Sports Digital of the same and shall cooperate
+     with Amer Sports Digital in every reasonable effort to regain possession or prevent
+     further unauthorized use of the Licensed Technology.
+
+     Notwithstanding anything in this Section, neither Party shall be obligated to maintain
+      Digital; or (iv) was independently developed (by personnel having no access to the
+      Confidential Information) by Licensee as proven by the written records of Licensee.
+
+      Companies within the Amer Sports group shall not be deemed to be third parties for
+      the purposes of this Agreement.
+
+10.   CONTACT PERSONS
+
+      The contact persons of the Parties concerning any issues relating to this Agreement
+      are specified on the following website: www.movesense.com
+
+11.   TERMINATION
+
+      This Agreement shall be effective from the date of [downloading the Licensed
+      Technology Bitbucket] (“Effective Date”) and stay in force for a period of twelve (12)
+      months from the Effective Date, unless earlier terminated by either Party under this
+      section.
+
+      Either Amer Sports Digital or Licensee may terminate this Agreement at any time by
+      providing thirty (30) days prior written notice to the other Party.
+
+      Licensee’s license rights automatically terminate immediately without notice, if
+      Licensee fails to comply with any provision of this Agreement.
+
+      Within five (5) days after termination of this Agreement, Licensee shall destroy or
+      return to Amer Sports Digital, as instructed by Amer Sports Digital, Licensed
+      Technology and all copies of the Licensed Technology in its possession and all related
+      materials and Confidential Information, and provide a letter certifying such destruction
+      or return. For the avoidance of doubt, the aforesaid obligation to return the Licensed
+      Technology shall not apply to the Product.
+
+      Sections 4 (ownership), 5 (feedback), 7 (no warranty), 8 (limitation of liability) and 9
+      (confidentiality) shall survive the termination of this Agreement. Upon termination all
+      Products shall be returned to Amer Sports Digital.
+
+12.   GENERAL
+
+12.1. Entire Agreement
+
+      This Agreement is the entire agreement between the Parties relating to the Licensed
+      Technology and supersedes any prior representations, communications,
+      undertakings, or discussions relating to the Licensed Technology. No terms in any
+      purchase order or other forms shall apply, even if such purchase order or other forms
+      are accepted by either Party. This Agreement may only be modified by a writing
+      signed by both Parties.
+
+12.2. Assignment
+
+      This Agreement may not be assigned in whole or in part by either Party without the
+      prior written consent of the other Party.
+     to be appointed by the Arbitration Committee of the Central Chamber of Commerce
+     of Finland and the rules of the said Committee are to be followed in the arbitration.
+     The award shall be final and binding and enforceable in any court of competent
+     jurisdiction.
+
+12.4. Independent Contractors
+
+     Each Party will be deemed to have the status of an independent contractor towards
+     the other Party, and nothing in this Agreement will be deemed to place the Parties in
+     the relationship of employer-employee, principal-agent, partners or joint venturers.
+
+12.5. No Commitment
+
+     The Licensee understands that nothing herein requires Amer Sports Digital to proceed
+     with any transaction or relationship or agreement. The Licensee further agree and
+     acknowledge that Amer Sports Digital may now market or have under development
+     products and/or services which are competitive with ideas, products and/or services
+     now offered or which may be offered by Licensee, and that subject to the terms and
+     conditions of this Agreement, discussions or communications between the Parties will
+     not prevent the right of Amer Sports Digital by itself or through any third party to
+     develop, make, use, procure and/or market products or services now or in the future
+     which may be competitive with those developed by the Licensee under this
+     Agreement.
+
+12.6. Waiver
+
+     The failure of either Party to enforce any provision of this Agreement shall not be
+     deemed a waiver of that or any other provision of this Agreement.
+
+12.7. Severability
+
+     If any provision contained in this Agreement is determined to be invalid or
+     unenforceable, in whole or in part, the remaining provisions and any partially
+     enforceable provision will, nevertheless, be binding and enforceable, and the Parties
+     agree to substitute for the invalid provision a valid provision which most closely
+     approximates the intent and economic effect of the invalid provision.
+
+12.8. Export Control
+
+     Licensee shall follow all export control laws and regulations relating to the Licensed
+     Technology.
+
+     YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT,
+     UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND
+     CONDITIONS. YOU FURTHER AGREE IT IS THE COMPLETE AND EXCLUSIVE
+     STATEMENT OF THE AGREEMENT BETWEEN US WHICH SUPERSEDES ANY
+     PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND ANY OTHER
+     COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF
+     THIS AGREEMENT.
+APPENDIX 1 – LICENSED TECHNOLOGY
+
+  •   Movesense mobile library (MDS) (binary + header files)
+  •   Movesense API specification (source code and documentation)
+  •   Mobile Movesense sample apps (source code and documentation)
+  •   Supporting SW tools (binary and documentation)
+APPENDIX 2 – THIRD PARTY COMPONENT LICENSE TERMS
+
+
+A. Python
+
+A. HISTORY OF THE SOFTWARE
+==========================
+
+Python was created in the early 1990s by Guido van Rossum at Stichting
+Mathematisch Centrum (CWI, see http://www.cwi.nl) in the Netherlands
+as a successor of a language called ABC. Guido remains Python's
+principal author, although it includes many contributions from others.
+
+In 1995, Guido continued his work on Python at the Corporation for
+National Research Initiatives (CNRI, see http://www.cnri.reston.va.us)
+in Reston, Virginia where he released several versions of the
+software.
+
+In May 2000, Guido and the Python core development team moved to
+BeOpen.com to form the BeOpen PythonLabs team. In October of the same
+year, the PythonLabs team moved to Digital Creations (now Zope
+Corporation, see http://www.zope.com). In 2001, the Python Software
+Foundation (PSF, see http://www.python.org/psf/) was formed, a
+non-profit organization created specifically to own Python-related
+Intellectual Property. Zope Corporation is a sponsoring member of
+the PSF.
+
+All Python releases are Open Source (see http://www.opensource.org for
+the Open Source Definition). Historically, most, but not all, Python
+releases have also been GPL-compatible; the table below summarizes
+the various releases.
+
+  Release             Derived        Year           Owner                GPL-
+                      from                                               compatible? (1)
+
+  0.9.0 thru 1.2                     1991-1995      CWI                  yes
+  1.3 thru 1.5.2      1.2            1995-1999      CNRI                 yes
+  1.6                 1.5.2          2000           CNRI                 no
+  2.0                 1.6            2000           BeOpen.com           no
+  1.6.1               1.6            2001           CNRI                 yes (2)
+  2.1                 2.0+1.6.1      2001           PSF                  no
+  2.0.1               2.0+1.6.1      2001           PSF                  yes
+  2.1.1               2.1+2.0.1      2001           PSF                  yes
+  2.1.2               2.1.1          2002           PSF                  yes
+  2.1.3               2.1.2          2002           PSF                  yes
+  2.2 and above       2.1.1          2001-now       PSF                   yes
+
+Footnotes:
+
+(1) GPL-compatible doesn't mean that we're distributing Python under
+   the GPL. All Python licenses, unlike the GPL, let you distribute
+   a modified version without making your changes open source. The
+  CNRI, however, Stallman's lawyer has told CNRI's lawyer that 1.6.1
+  is "not incompatible" with the GPL.
+
+Thanks to the many outside volunteers who have worked under Guido's
+direction to make these releases possible.
+
+
+B. TERMS AND CONDITIONS FOR ACCESSING OR OTHERWISE USING PYTHON
+===============================================================
+
+PYTHON SOFTWARE FOUNDATION LICENSE VERSION 2
+--------------------------------------------
+
+1. This LICENSE AGREEMENT is between the Python Software Foundation
+("PSF"), and the Individual or Organization ("Licensee") accessing and
+otherwise using this software ("Python") in source or binary form and
+its associated documentation.
+
+2. Subject to the terms and conditions of this License Agreement, PSF hereby
+grants Licensee a nonexclusive, royalty-free, world-wide license to reproduce,
+analyze, test, perform and/or display publicly, prepare derivative works,
+distribute, and otherwise use Python alone or in any derivative version,
+provided, however, that PSF's License Agreement and PSF's notice of copyright,
+i.e., "Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010,
+2011, 2012, 2013 Python Software Foundation; All Rights Reserved" are retained
+in Python alone or in any derivative version prepared by Licensee.
+
+3. In the event Licensee prepares a derivative work that is based on
+or incorporates Python or any part thereof, and wants to make
+the derivative work available to others as provided herein, then
+Licensee hereby agrees to include in any such work a brief summary of
+the changes made to Python.
+
+4. PSF is making Python available to Licensee on an "AS IS"
+basis. PSF MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PSF MAKES NO AND
+DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR
+FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON WILL
+NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. PSF SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON
+FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS
+A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON,
+OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material
+breach of its terms and conditions.
+
+7. Nothing in this License Agreement shall be deemed to create any
+relationship of agency, partnership, or joint venture between PSF and
+Licensee. This License Agreement does not grant permission to use PSF
+Agreement.
+
+
+BEOPEN.COM LICENSE AGREEMENT FOR PYTHON 2.0
+-------------------------------------------
+
+BEOPEN PYTHON OPEN SOURCE LICENSE AGREEMENT VERSION 1
+
+1. This LICENSE AGREEMENT is between BeOpen.com ("BeOpen"), having an
+office at 160 Saratoga Avenue, Santa Clara, CA 95051, and the
+Individual or Organization ("Licensee") accessing and otherwise using
+this software in source or binary form and its associated
+documentation ("the Software").
+
+2. Subject to the terms and conditions of this BeOpen Python License
+Agreement, BeOpen hereby grants Licensee a non-exclusive,
+royalty-free, world-wide license to reproduce, analyze, test, perform
+and/or display publicly, prepare derivative works, distribute, and
+otherwise use the Software alone or in any derivative version,
+provided, however, that the BeOpen Python License is retained in the
+Software, alone or in any derivative version prepared by Licensee.
+
+3. BeOpen is making the Software available to Licensee on an "AS IS"basis. BEOPEN
+MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY
+OF EXAMPLE, BUT NOT LIMITATION, BEOPEN MAKES NO AND DISCLAIMS ANY
+REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY
+PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE
+ANY THIRD PARTY RIGHTS.
+
+4. BEOPEN SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF THE
+SOFTWARE FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR
+LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR
+ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+5. This License Agreement will automatically terminate upon a material
+breach of its terms and conditions.
+
+6. This License Agreement shall be governed by and interpreted in all
+respects by the law of the State of California, excluding conflict of
+law provisions. Nothing in this License Agreement shall be deemed to
+create any relationship of agency, partnership, or joint venture
+between BeOpen and Licensee. This License Agreement does not grant
+permission to use BeOpen trademarks or trade names in a trademark
+sense to endorse or promote products or services of Licensee, or any
+third party. As an exception, the "BeOpen Python" logos available at
+http://www.pythonlabs.com/logos.html may be used according to the
+permissions granted on that web page.
+
+7. By copying, installing or otherwise using the software, Licensee
+agrees to be bound by the terms and conditions of this License
+Agreement.
+1. This LICENSE AGREEMENT is between the Corporation for National
+Research Initiatives, having an office at 1895 Preston White Drive,
+Reston, VA 20191 ("CNRI"), and the Individual or Organization
+("Licensee") accessing and otherwise using Python 1.6.1 software in
+source or binary form and its associated documentation.
+
+2. Subject to the terms and conditions of this License Agreement, CNRI
+hereby grants Licensee a nonexclusive, royalty-free, world-wide
+license to reproduce, analyze, test, perform and/or display publicly,
+prepare derivative works, distribute, and otherwise use Python 1.6.1
+alone or in any derivative version, provided, however, that CNRI's
+License Agreement and CNRI's notice of copyright, i.e., "Copyright (c)
+1995-2001 Corporation for National Research Initiatives; All Rights
+Reserved" are retained in Python 1.6.1 alone or in any derivative
+version prepared by Licensee. Alternately, in lieu of CNRI's License
+Agreement, Licensee may substitute the following text (omitting the
+quotes): "Python 1.6.1 is made available subject to the terms and
+conditions in CNRI's License Agreement. This Agreement together with
+Python 1.6.1 may be located on the Internet using the following
+unique, persistent identifier (known as a handle): 1895.22/1013. This
+Agreement may also be obtained from a proxy server on the Internet
+using the following URL: http://hdl.handle.net/1895.22/1013".
+
+3. In the event Licensee prepares a derivative work that is based on
+or incorporates Python 1.6.1 or any part thereof, and wants to make
+the derivative work available to others as provided herein, then
+Licensee hereby agrees to include in any such work a brief summary of
+the changes made to Python 1.6.1.
+
+4. CNRI is making Python 1.6.1 available to Licensee on an "AS IS"
+basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND
+DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR
+FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF PYTHON 1.6.1
+WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.
+
+5. CNRI SHALL NOT BE LIABLE TO LICENSEE OR ANY OTHER USERS OF PYTHON
+1.6.1 FOR ANY INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES OR LOSS AS
+A RESULT OF MODIFYING, DISTRIBUTING, OR OTHERWISE USING PYTHON 1.6.1,
+OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF.
+
+6. This License Agreement will automatically terminate upon a material
+breach of its terms and conditions.
+
+7. This License Agreement shall be governed by the federal
+intellectual property law of the United States, including without
+limitation the federal copyright law, and, to the extent such
+U.S. federal law does not apply, by the law of the Commonwealth of
+Virginia, excluding Virginia's conflict of law provisions.
+Notwithstanding the foregoing, with regard to derivative works based
+on Python 1.6.1 that incorporate non-separable material that was
+agency, partnership, or joint venture between CNRI and Licensee. This
+License Agreement does not grant permission to use CNRI trademarks or
+trade name in a trademark sense to endorse or promote products or
+services of Licensee, or any third party.
+
+8. By clicking on the "ACCEPT" button where indicated, or by copying,
+installing or otherwise using Python 1.6.1, Licensee agrees to be
+bound by the terms and conditions of this License Agreement.
+
+
+CWI LICENSE AGREEMENT FOR PYTHON 0.9.0 THROUGH 1.2
+--------------------------------------------------
+
+Copyright (c) 1991 - 1995, Stichting Mathematisch Centrum Amsterdam,
+The Netherlands. All rights reserved.
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the name of Stichting Mathematisch
+Centrum or CWI not be used in advertising or publicity pertaining to
+distribution of the software without specific, written prior
+permission.
+
+STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH
+CENTRUM BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+
+Additional Conditions for this Windows binary build
+---------------------------------------------------
+
+This program is linked with and uses Microsoft Distributable Code,
+copyrighted by Microsoft Corporation. The Microsoft Distributable Code
+includes the following files:
+
+msvcr90.dll
+msvcp90.dll
+msvcm90.dll
+
+If you further distribute programs that include the Microsoft
+Distributable Code, you must comply with the restrictions on
+distribution specified by Microsoft. In particular, you must require
+distributors and external end users to agree to terms that protect the
+Microsoft Distributable Code at least as much as Microsoft's own
+complies with this agreement, provided that you do not:
+
+- alter any copyright, trademark or patent notice in Microsoft's
+Distributable Code;
+
+- use Microsoft's trademarks in your programs' names or in a way that
+suggests your programs come from or are endorsed by Microsoft;
+
+- distribute Microsoft's Distributable Code to run on a platform other
+than Microsoft operating systems, run-time technologies or application
+platforms; or
+
+- include Microsoft Distributable Code in malicious, deceptive or
+unlawful programs.
+
+These restrictions apply only to the Microsoft Distributable Code as
+defined above, not to Python itself or any programs running on the
+Python interpreter. The redistribution of the Python interpreter and
+libraries is governed by the Python Software License included with this
+file, or by other licenses as marked.
+
+
+This copy of Python includes a copy of bzip2, which is licensed under the following terms:
+
+
+--------------------------------------------------------------------------
+
+This program, "bzip2", the associated library "libbzip2", and all
+documentation, are copyright (C) 1996-2010 Julian R Seward. All
+rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+
+2. The origin of this software must not be misrepresented; you must
+  not claim that you wrote the original software. If you use this
+  software in a product, an acknowledgment in the product
+  documentation would be appreciated but is not required.
+
+3. Altered source versions must be plainly marked as such, and must
+  not be misrepresented as being the original software.
+
+4. The name of the author may not be used to endorse or promote
+  products derived from this software without specific prior written
+  permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Julian Seward, jseward@bzip.org
+bzip2/libbzip2 version 1.0.6 of 6 September 2010
+
+--------------------------------------------------------------------------
+
+This copy of Python includes a copy of Berkeley DB, which is licensed under the following
+terms:
+
+/*-
+ * $Id: LICENSE,v 12.9 2008/02/07 17:12:17 mark Exp $
+ */
+
+The following is the license that applies to this copy of the Berkeley DB
+software. For a license to use the Berkeley DB software under conditions
+other than those described here, or to purchase support for this software,
+please contact Oracle at berkeleydb-info_us@oracle.com.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+/*
+ * Copyright (c) 1990,2008 Oracle. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 3. Redistributions in any form must be accompanied by information on
+ * how to obtain complete source code for the DB software and any
+ * accompanying software that uses the DB software. The source code
+ * must either be included in the distribution or be available for no
+ * more than the cost of distribution plus a nominal fee, and must be
+ * freely redistributable under reasonable conditions. For an
+ * executable file, complete source code means the source code for all
+ * modules it contains. It does not include source code for modules or
+ * files that typically accompany the major components of the operating
+ * system on which the executable file runs.
+ *
+ * THIS SOFTWARE IS PROVIDED BY ORACLE ``AS IS'' AND ANY EXPRESS OR
+ * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+OR
+ * NON-INFRINGEMENT, ARE DISCLAIMED. IN NO EVENT SHALL ORACLE BE LIABLE
+ * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+EVEN
+ * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+/*
+ * Copyright (c) 1990, 1993, 1994, 1995
+ *      The Regents of the University of California. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the University nor the names of its contributors
+ * may be used to endorse or promote products derived from this software
+ * without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS''
+AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE
+LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ */
+/*
+ * Copyright (c) 1995, 1996
+ *      The President and Fellows of Harvard University. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY HARVARD AND ITS CONTRIBUTORS ``AS IS''
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL HARVARD OR ITS
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+/***
+ * ASM: a very small and fast Java bytecode manipulation framework
+ * Copyright (c) 2000-2005 INRIA, France Telecom
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the copyright holders nor the names of its
+ * contributors may be used to endorse or promote products derived from
+ * this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGE.
+ */
+
+This copy of Python includes a copy of openssl, which is licensed under the following terms:
+
+
+ LICENSE ISSUES
+ ==============
+ please contact openssl-core@openssl.org.
+
+ OpenSSL License
+ ---------------
+
+/*
+====================================================================
+ * Copyright (c) 1998-2011 The OpenSSL Project. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ * notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in
+ * the documentation and/or other materials provided with the
+ * distribution.
+ *
+ * 3. All advertising materials mentioning features or use of this
+ * software must display the following acknowledgment:
+ * "This product includes software developed by the OpenSSL Project
+ * for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+ *
+ * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+ * endorse or promote products derived from this software without
+ * prior written permission. For written permission, please contact
+ * openssl-core@openssl.org.
+ *
+ * 5. Products derived from this software may not be called "OpenSSL"
+ * nor may "OpenSSL" appear in their names without prior written
+ * permission of the OpenSSL Project.
+ *
+ * 6. Redistributions of any form whatsoever must retain the following
+ * acknowledgment:
+ * "This product includes software developed by the OpenSSL Project
+ * for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+ * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+* This product includes cryptographic software written by Eric Young
+* (eay@cryptsoft.com). This product includes software written by Tim
+* Hudson (tjh@cryptsoft.com).
+*
+*/
+
+Original SSLeay License
+-----------------------
+
+/* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+ * All rights reserved.
+ *
+ * This package is an SSL implementation written
+ * by Eric Young (eay@cryptsoft.com).
+ * The implementation was written so as to conform with Netscapes SSL.
+ *
+ * This library is free for commercial and non-commercial use as long as
+ * the following conditions are aheared to. The following conditions
+ * apply to all code found in this distribution, be it the RC4, RSA,
+ * lhash, DES, etc., code; not just the SSL code. The SSL documentation
+ * included with this distribution is covered by the same copyright terms
+ * except that the holder is Tim Hudson (tjh@cryptsoft.com).
+ *
+ * Copyright remains Eric Young's, and as such any Copyright notices in
+ * the code are not to be removed.
+ * If this package is used in a product, Eric Young should be given attribution
+ * as the author of the parts of the library used.
+ * This can be in the form of a textual message at program startup or
+ * in documentation (online or textual) provided with the package.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the copyright
+ * notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ * must display the following acknowledgement:
+ * "This product includes cryptographic software written by
+ * Eric Young (eay@cryptsoft.com)"
+ * The word 'cryptographic' can be left out if the rouines from the library
+ * being used are not cryptographic related :-).
+ * 4. If you include any Windows specific code (or a derivative thereof) from
+ * the apps directory (application code) you must include an acknowledgement:
+ * "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+* The licence and distribution terms for any publically available version or
+* derivative of this code cannot be changed. i.e. this code cannot simply be
+* copied and put under another distribution licence
+* [including the GNU Public Licence.]
+*/
+
+
+This copy of Python includes a copy of Tcl, which is licensed under the following terms:
+
+This software is copyrighted by the Regents of the University of
+California, Sun Microsystems, Inc., Scriptics Corporation, ActiveState
+Corporation and other parties. The following terms apply to all files
+associated with the software unless explicitly disclaimed in
+individual files.
+
+The authors hereby grant permission to use, copy, modify, distribute,
+and license this software and its documentation for any purpose, provided
+that existing copyright notices are retained in all copies and that this
+notice is included verbatim in any distributions. No written agreement,
+license, or royalty fee is required for any of the authorized uses.
+Modifications to this software may be copyrighted by their authors
+and need not follow the licensing terms described here, provided that
+the new terms are clearly indicated on the first page of each file where
+they apply.
+
+IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
+FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
+DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-
+INFRINGEMENT. THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, AND THE
+AUTHORS AND DISTRIBUTORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE,
+SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+GOVERNMENT USE: If you are acquiring this software on behalf of the
+U.S. government, the Government shall have only "Restricted Rights"
+in the software and related documentation as defined in the Federal
+Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2). If you
+are acquiring the software on behalf of the Department of Defense, the
+software shall be classified as "Commercial Computer Software" and the
+Government shall have only "Restricted Rights" as defined in Clause
+252.227-7013 (c) (1) of DFARs. Notwithstanding the foregoing, the
+authors grant the U.S. Government and others acting in its behalf
+This software is copyrighted by the Regents of the University of
+California, Sun Microsystems, Inc., and other parties. The following
+terms apply to all files associated with the software unless explicitly
+disclaimed in individual files.
+
+The authors hereby grant permission to use, copy, modify, distribute,
+and license this software and its documentation for any purpose, provided
+that existing copyright notices are retained in all copies and that this
+notice is included verbatim in any distributions. No written agreement,
+license, or royalty fee is required for any of the authorized uses.
+Modifications to this software may be copyrighted by their authors
+and need not follow the licensing terms described here, provided that
+the new terms are clearly indicated on the first page of each file where
+they apply.
+
+IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
+FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
+DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-
+INFRINGEMENT. THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, AND THE
+AUTHORS AND DISTRIBUTORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE,
+SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+GOVERNMENT USE: If you are acquiring this software on behalf of the
+U.S. government, the Government shall have only "Restricted Rights"
+in the software and related documentation as defined in the Federal
+Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2). If you
+are acquiring the software on behalf of the Department of Defense, the
+software shall be classified as "Commercial Computer Software" and the
+Government shall have only "Restricted Rights" as defined in Clause
+252.227-7013 (c) (1) of DFARs. Notwithstanding the foregoing, the
+authors grant the U.S. Government and others acting in its behalf
+permission to use and distribute the software in accordance with the
+terms specified in this license.
+
+This copy of Python includes a copy of Tix, which is licensed under the following terms:
+
+Copyright (c) 1993-1999 Ioi Kim Lam.
+Copyright (c) 2000-2001 Tix Project Group.
+Copyright (c) 2004 ActiveState
+
+This software is copyrighted by the above entities
+and other parties. The following terms apply to all files associated
+with the software unless explicitly disclaimed in individual files.
+
+The authors hereby grant permission to use, copy, modify, distribute,
+and need not follow the licensing terms described here, provided that
+the new terms are clearly indicated on the first page of each file where
+they apply.
+
+IN NO EVENT SHALL THE AUTHORS OR DISTRIBUTORS BE LIABLE TO ANY PARTY
+FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE, ITS DOCUMENTATION, OR ANY
+DERIVATIVES THEREOF, EVEN IF THE AUTHORS HAVE BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+THE AUTHORS AND DISTRIBUTORS SPECIFICALLY DISCLAIM ANY WARRANTIES,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-
+INFRINGEMENT. THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, AND THE
+AUTHORS AND DISTRIBUTORS HAVE NO OBLIGATION TO PROVIDE MAINTENANCE,
+SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+GOVERNMENT USE: If you are acquiring this software on behalf of the
+U.S. government, the Government shall have only "Restricted Rights"
+in the software and related documentation as defined in the Federal
+Acquisition Regulations (FARs) in Clause 52.227.19 (c) (2). If you
+are acquiring the software on behalf of the Department of Defense, the
+software shall be classified as "Commercial Computer Software" and the
+Government shall have only "Restricted Rights" as defined in Clause
+252.227-7013 (c) (1) of DFARs. Notwithstanding the foregoing, the
+authors grant the U.S. Government and others acting in its behalf
+permission to use and distribute the software in accordance with the
+terms specified in this license.
+
+----------------------------------------------------------------------
+
+Parts of this software are based on the Tcl/Tk software copyrighted by
+the Regents of the University of California, Sun Microsystems, Inc.,
+and other parties. The original license terms of the Tcl/Tk software
+distribution is included in the file docs/license.tcltk.
+
+Parts of this software are based on the HTML Library software
+copyrighted by Sun Microsystems, Inc. The original license terms of
+the HTML Library software distribution is included in the file
+docs/license.html_lib.
+B. Boost
+
+Boost Software License - Version 1.0 - August 17th, 2003
+
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the "Software") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO
+EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE
+LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR
+OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER
+DEALINGS IN THE SOFTWARE.
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright (c) 1996 - 2016, Daniel Stenberg, <daniel@haxx.se>.
+C. Curl
+
+All rights reserved.
+
+Permission to use, copy, modify, and distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright
+notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY
+RIGHTS. IN
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall not
+be used in advertising or otherwise to promote the sale, use or other dealings
+in this Software without prior written authorization of the copyright holder.
+D. ExprEval
+
+ExprEval - Expression Evaluation Library
+Version 3.x
+
+Copyright (C) 2006 Brian Allen Vanderburg II
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+  claim that you wrote the original software. If you use this software
+  in a product, an acknowledgment in the product documentation would be
+  appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+  misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+E. Heatshrink
+
+Copyright (c) 2013-2015, Scott Vokes <vokes.s@gmail.com>
+All rights reserved.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE
+FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY
+DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+F. JSON 11
+
+Copyright (c) 2013 Dropbox, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN
+THE SOFTWARE.
+G. JSON Spirit
+
+The MIT License
+
+Copyright (c) 2007 - 2010 John W. Wilkinson
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+H. OpenSSL
+
+LICENSE ISSUES
+==============
+
+The OpenSSL toolkit stays under a dual license, i.e. both the conditions of
+the OpenSSL License and the original SSLeay license apply to the toolkit.
+See below for the actual license texts. Actually both licenses are BSD-style
+Open Source licenses. In case of any license issues related to OpenSSL
+please contact openssl-core@openssl.org.
+
+OpenSSL License
+---------------
+
+/*
+====================================================================
+* Copyright (c) 1998-2016 The OpenSSL Project. All rights reserved.
+*
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions
+* are met:
+*
+* 1. Redistributions of source code must retain the above copyright
+* notice, this list of conditions and the following disclaimer.
+*
+* 2. Redistributions in binary form must reproduce the above copyright
+* notice, this list of conditions and the following disclaimer in
+* the documentation and/or other materials provided with the
+* distribution.
+*
+* 3. All advertising materials mentioning features or use of this
+* software must display the following acknowledgment:
+* "This product includes software developed by the OpenSSL Project
+* for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+*
+* 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+* endorse or promote products derived from this software without
+* prior written permission. For written permission, please contact
+* openssl-core@openssl.org.
+*
+* 5. Products derived from this software may not be called "OpenSSL"
+* nor may "OpenSSL" appear in their names without prior written
+* permission of the OpenSSL Project.
+*
+* 6. Redistributions of any form whatsoever must retain the following
+* acknowledgment:
+* "This product includes software developed by the OpenSSL Project
+* for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+*
+* THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+* EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+* LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+* STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+* ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+* OF THE POSSIBILITY OF SUCH DAMAGE.
+*
+====================================================================
+*
+* This product includes cryptographic software written by Eric Young
+* (eay@cryptsoft.com). This product includes software written by Tim
+* Hudson (tjh@cryptsoft.com).
+*
+*/
+
+Original SSLeay License
+-----------------------
+
+/* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+* All rights reserved.
+*
+* This package is an SSL implementation written
+* by Eric Young (eay@cryptsoft.com).
+* The implementation was written so as to conform with Netscapes SSL.
+*
+* This library is free for commercial and non-commercial use as long as
+* the following conditions are aheared to. The following conditions
+* apply to all code found in this distribution, be it the RC4, RSA,
+* lhash, DES, etc., code; not just the SSL code. The SSL documentation
+* included with this distribution is covered by the same copyright terms
+* except that the holder is Tim Hudson (tjh@cryptsoft.com).
+*
+* Copyright remains Eric Young's, and as such any Copyright notices in
+* the code are not to be removed.
+* If this package is used in a product, Eric Young should be given attribution
+* as the author of the parts of the library used.
+* This can be in the form of a textual message at program startup or
+* in documentation (online or textual) provided with the package.
+*
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions
+* are met:
+* 1. Redistributions of source code must retain the copyright
+* notice, this list of conditions and the following disclaimer.
+* 2. Redistributions in binary form must reproduce the above copyright
+* notice, this list of conditions and the following disclaimer in the
+* documentation and/or other materials provided with the distribution.
+* 3. All advertising materials mentioning features or use of this software
+* must display the following acknowledgement:
+* "This product includes cryptographic software written by
+* Eric Young (eay@cryptsoft.com)"
+* The word 'cryptographic' can be left out if the rouines from the library
+* THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+* ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+* IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE
+* ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE
+LIABLE
+* FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL
+* DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS
+* OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT
+* LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+WAY
+* OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+* SUCH DAMAGE.
+*
+* The licence and distribution terms for any publically available version or
+* derivative of this code cannot be changed. i.e. this code cannot simply be
+* copied and put under another distribution licence
+* [including the GNU Public Licence.]
+*/
+I. Urdl
+
+Boost Software License - Version 1.0 - August 17th, 2003
+
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the "Software") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO
+EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE
+LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR
+OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER
+DEALINGS IN THE SOFTWARE.
+J. Zlib
+
+Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+  claim that you wrote the original software. If you use this software
+  in a product, an acknowledgment in the product documentation would be
+  appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+  misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+Jean-loup Gailly     Mark Adler
+jloup@gzip.org       madler@alumni.caltech.edu
+
+
+The data format used by the zlib library is described by RFCs (Request for
+Comments) 1950 to 1952 in the files http://tools.ietf.org/html/rfc1950
+(zlib format), rfc1951 (deflate format) and rfc1952 (gzip format).
+K. Nordic Semiconductor DFU library
+
+Copyright (c) 2015, Nordic Semiconductor
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of Android-DFU-Library nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS
+BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+L. RxAndroidBLE
+
+Licensed under Apache License (see Appendix 3).
+
+M. RxAndroid
+
+Licensed under Apache License (see Appendix 3).
+
+N. Gson
+
+Licensed under Apache License (see Appendix 3).
+
+O. ButterKnife
+
+Licensed under Apache License (see Appendix 3).
+
+P. GraphView
+
+Licensed under Apache License (see Appendix 3).
+
+Q. UI Automator
+
+Licensed under Apache License (see Appendix 3).
+
+R. Google and Android APIs
+
+Licensed under Apache License (see Appendix 3).
+
+S. EasyPermissions
+
+Licensed under Apache License (see Appendix 3).
+
+T. HTextView
+
+Licensed under Apache License (see Appendix 3).
+
+U. MockitoCore
+
+Licensed under MIT License (see Appendix 3).
+
+V. yaml-cpp
+
+Licensed under MIT License (see Appendix 3).
+APPENDIX 3 – COMMON LICENSES
+
+A. Apache License Version 2.0
+
+Version 2.0, January 2004
+
+http://www.apache.org/licenses/
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+1. Definitions.
+"License" shall mean the terms and conditions for use, reproduction, and distribution as
+defined by Sections 1 through 9 of this document.
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is
+granting the License.
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are
+controlled by, or are under common control with that entity. For the purposes of this
+definition, "control" means (i) the power, direct or indirect, to cause the direction or
+management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent
+(50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by
+this License.
+"Source" form shall mean the preferred form for making modifications, including but not
+limited to software source code, documentation source, and configuration files.
+"Object" form shall mean any form resulting from mechanical transformation or translation of
+a Source form, including but not limited to compiled object code, generated documentation,
+and conversions to other media types.
+"Work" shall mean the work of authorship, whether in Source or Object form, made available
+under the License, as indicated by a copyright notice that is included in or attached to the work
+(an example is provided in the Appendix below).
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or
+derived from) the Work and for which the editorial revisions, annotations, elaborations, or
+other modifications represent, as a whole, an original work of authorship. For the purposes of
+this License, Derivative Works shall not include works that remain separable from, or merely
+link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+"Contribution" shall mean any work of authorship, including the original version of the Work
+and any modifications or additions to that Work or Derivative Works thereof, that is
+intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an
+individual or Legal Entity authorized to submit on behalf of the copyright owner. For the
+purposes of this definition, "submitted" means any form of electronic, verbal, or written
+communication sent to the Licensor or its representatives, including but not limited to
+communication on electronic mailing lists, source code control systems, and issue tracking
+systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and
+improving the Work, but excluding communication that is conspicuously marked or otherwise
+designated in writing by the copyright owner as "Not a Contribution."
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a
+Contribution has been received by Licensor and subsequently incorporated within the Work.
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each
+3. Grant of Patent License. Subject to the terms and conditions of this License, each
+Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-
+free, irrevocable (except as stated in this section) patent license to make, have made, use, offer
+to sell, sell, import, and otherwise transfer the Work, where such license applies only to those
+patent claims licensable by such Contributor that are necessarily infringed by their
+Contribution(s) alone or by combination of their Contribution(s) with the Work to which such
+Contribution(s) was submitted. If You institute patent litigation against any entity (including a
+cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated
+within the Work constitutes direct or contributory patent infringement, then any patent
+licenses granted to You under this License for that Work shall terminate as of the date such
+litigation is filed.
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works
+thereof in any medium, with or without modifications, and in Source or Object form, provided
+that You meet the following conditions:
+
+    1. You must give any other recipients of the Work or Derivative Works a copy of this
+       License; and
+    2. You must cause any modified files to carry prominent notices stating that You changed
+       the files; and
+    3. You must retain, in the Source form of any Derivative Works that You distribute, all
+       copyright, patent, trademark, and attribution notices from the Source form of the
+       Work, excluding those notices that do not pertain to any part of the Derivative Works;
+       and
+    4. If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative
+       Works that You distribute must include a readable copy of the attribution notices
+       contained within such NOTICE file, excluding those notices that do not pertain to any
+       part of the Derivative Works, in at least one of the following places: within a NOTICE
+       text file distributed as part of the Derivative Works; within the Source form or
+       documentation, if provided along with the Derivative Works; or, within a display
+       generated by the Derivative Works, if and wherever such third-party notices normally
+       appear. The contents of the NOTICE file are for informational purposes only and do not
+       modify the License. You may add Your own attribution notices within Derivative Works
+       that You distribute, alongside or as an addendum to the NOTICE text from the Work,
+       provided that such additional attribution notices cannot be construed as modifying the
+       License.
+
+         You may add Your own copyright statement to Your modifications and may provide
+         additional or different license terms and conditions for use, reproduction, or
+         distribution of Your modifications, or for any such Derivative Works as a whole,
+         provided Your use, reproduction, and distribution of the Work otherwise complies with
+         the conditions stated in this License.
+
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution
+intentionally submitted for inclusion in the Work by You to the Licensor shall be under the
+terms and conditions of this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate
+license agreement you may have executed with Licensor regarding such Contributions.
+6. Trademarks. This License does not grant permission to use the trade names, trademarks,
+service marks, or product names of the Licensor, except as required for reasonable and
+customary use in describing the origin of the Work and reproducing the content of the NOTICE
+file.
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing,
+responsible for determining the appropriateness of using or redistributing the Work and
+assume any risks associated with Your exercise of permissions under this License.
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including
+negligence), contract, or otherwise, unless required by applicable law (such as deliberate and
+grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for
+damages, including any direct, indirect, special, incidental, or consequential damages of any
+character arising as a result of this License or out of the use or inability to use the Work
+(including but not limited to damages for loss of goodwill, work stoppage, computer failure or
+malfunction, or any and all other commercial damages or losses), even if such Contributor has
+been advised of the possibility of such damages.
+9. Accepting Warranty or Additional Liability. While redistributing the Work or
+Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support,
+warranty, indemnity, or other liability obligations and/or rights consistent with this License.
+However, in accepting such obligations, You may act only on Your own behalf and on Your sole
+responsibility, not on behalf of any other Contributor, and only if You agree to indemnify,
+defend, and hold each Contributor harmless for any liability incurred by, or claims asserted
+against, such Contributor by reason of your accepting any such warranty or additional liability.
+B. MIT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+and associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute,
+sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Software.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
