@@ -27,6 +27,8 @@ import com.polidea.rxandroidble.RxBleDevice;
 import com.polidea.rxandroidble.scan.ScanSettings;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import rx.Subscription;
 
@@ -241,6 +243,58 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private void connectBLEDevice(MyScanResult device) {
         RxBleDevice bleDevice = getBleClient().getBleDevice(device.macAddress);
+
+        Log.i(LOG_TAG, "Connecting to BLE device: " + bleDevice.getMacAddress());
+        mMds.connect(bleDevice.getMacAddress(), new MdsConnectionListener() {
+
+            @Override
+            public void onConnect(String s) {
+                Log.d(LOG_TAG, "onConnect:" + s);
+            }
+
+            @Override
+            public void onConnectionComplete(String macAddress, String serial) {
+                for (MyScanResult sr : mScanResArrayList) {
+                    if (sr.macAddress.equalsIgnoreCase(macAddress)) {
+                        sr.markConnected(serial);
+                        break;
+                    }
+                }
+                mScanResArrayAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onError(MdsException e) {
+                Log.e(LOG_TAG, "onError:" + e);
+
+                showConnectionError(e);
+            }
+
+            @Override
+            public void onDisconnect(String bleAddress) {
+
+                Log.d(LOG_TAG, "onDisconnect: " + bleAddress);
+                for (MyScanResult sr : mScanResArrayList) {
+                    if (bleAddress.equals(sr.macAddress))
+                    {
+                        // unsubscribe if was subscribed
+                        if (sr.connectedSerial != null && sr.connectedSerial.equals(subscribedDeviceSerial))
+                            unsubscribe();
+
+                        sr.markDisconnected();
+                    }
+                }
+                mScanResArrayAdapter.notifyDataSetChanged();
+            }
+        });
+    }
+
+    private void connectDrums() {
+        Map<String, String> drums = new HashMap<>();
+        drums.put("Snare", "0C:8C:DC:2C:4A:8B");
+        drums.put("Hi-Hat", "0C:8C:DC:2D:53:28");
+        drums.put("Bass", "0C:8C:DC:2C:4A:B7");
+        RxBleDevice bleDevice = getBleClient().getBleDevice(macAddress);
 
         Log.i(LOG_TAG, "Connecting to BLE device: " + bleDevice.getMacAddress());
         mMds.connect(bleDevice.getMacAddress(), new MdsConnectionListener() {
