@@ -27,19 +27,16 @@ class MainActivity : AppCompatActivity() {
         val hihatButton = findViewById (R.id.hihat) as Button
 
         snareButton.setOnClickListener {
-            snare.start()
             val intent = Intent(this@MainActivity, ConnectActivity::class.java)
             startActivity(intent)
         }
 
         bassButton.setOnClickListener {
-            bass.start()
             val intent = Intent(this@MainActivity, ConnectActivity::class.java)
             startActivity(intent)
         }
 
         hihatButton.setOnClickListener {
-            hihat.start()
             val intent = Intent(this@MainActivity, ConnectActivity::class.java)
             startActivity(intent)
         }
