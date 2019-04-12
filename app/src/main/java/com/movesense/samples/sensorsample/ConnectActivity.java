@@ -3,6 +3,7 @@ package com.movesense.samples.sensorsample;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -183,6 +184,9 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
     }
 
     private void subscribeToSensor(String connectedSerial) {
+        MediaPlayer snare = MediaPlayer.create(this, R.raw.snare);
+        MediaPlayer bass = MediaPlayer.create(this, R.raw.bass);
+        MediaPlayer hihat = MediaPlayer.create(this, R.raw.hihat);
         // Clean up existing subscription (if there is one)
         if (mdsSubscription != null) {
             unsubscribe();
@@ -213,6 +217,7 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
                         if (accResponse != null && accResponse.body.array.length > 0) {
                             if (Math.abs(accResponse.body.array[0].x) > 1 || Math.abs(accResponse.body.array[0].y) > 1) {
                                 huutis = "pam :D";
+                                snare.start();
                             }
                             else{
                                 huutis = "aika hiljasta :D";
