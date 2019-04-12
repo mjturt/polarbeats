@@ -30,8 +30,8 @@ import java.util.ArrayList;
 
 import rx.Subscription;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemLongClickListener, AdapterView.OnItemClickListener  {
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
+public class ConnectActivity extends AppCompatActivity implements AdapterView.OnItemLongClickListener, AdapterView.OnItemClickListener  {
+    private static final String LOG_TAG = ConnectActivity.class.getSimpleName();
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 1;
 
     // MDS
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_connect);
 
         // Init Scan UI
         mScanResultListView = (ListView)findViewById(R.id.listScanResult);
