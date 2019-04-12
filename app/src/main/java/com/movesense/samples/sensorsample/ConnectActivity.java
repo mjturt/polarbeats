@@ -30,6 +30,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.lang.Math;
+
+
 import rx.Subscription;
 
 public class ConnectActivity extends AppCompatActivity implements AdapterView.OnItemLongClickListener, AdapterView.OnItemClickListener  {
@@ -204,13 +207,21 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
                         if (sensorUI.getVisibility() == View.GONE)
                             sensorUI.setVisibility(View.VISIBLE);
 
+                        String huutis;
+
                         AccDataResponse accResponse = new Gson().fromJson(data, AccDataResponse.class);
                         if (accResponse != null && accResponse.body.array.length > 0) {
+                            if (Math.abs(accResponse.body.array[0].x) > 1 || Math.abs(accResponse.body.array[0].y) > 1) {
+                                huutis = "pam :D";
+                            }
+                            else{
+                                huutis = "aika hiljasta :D";
+                            }
 
                             String accStr =
                                     String.format("%.02f, %.02f, %.02f", accResponse.body.array[0].x, accResponse.body.array[0].y, accResponse.body.array[0].z);
 
-                            ((TextView)findViewById(R.id.sensorMsg)).setText(accStr);
+                            ((TextView)findViewById(R.id.sensorMsg)).setText(accStr + huutis);
                         }
                     }
 
