@@ -1,10 +1,19 @@
+# IntelliJ
+.idea
 *.iml
+
+# Android Studio
+local.properties
 .gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
-/captures
+gradle.properties
 .externalNativeBuild
 tags
+test.txt
+
+# Build Artifacts
+build
+gen
+out
+
+# Mac
+.DS_Store
