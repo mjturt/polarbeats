@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val hihatButton = findViewById (R.id.hihat) as Button
 
         snareButton.setOnClickListener {
+            ConnectActivity.connectToDrum("0C:8C:DC:2C4A:8B")
             snare.start()
         }
 

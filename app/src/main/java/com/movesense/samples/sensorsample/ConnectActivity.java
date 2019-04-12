@@ -289,7 +289,7 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
         });
     }
 
-    private void connectDrums() {
+    public void connectToDrum(String macAddress) {
         Map<String, String> drums = new HashMap<>();
         drums.put("Snare", "0C:8C:DC:2C:4A:8B");
         drums.put("Hi-Hat", "0C:8C:DC:2D:53:28");
