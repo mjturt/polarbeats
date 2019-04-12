@@ -3,6 +3,7 @@ package com.movesense.samples.sensorsample;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -27,6 +28,11 @@ import com.polidea.rxandroidble.RxBleDevice;
 import com.polidea.rxandroidble.scan.ScanSettings;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import java.lang.Math;
+
 
 import rx.Subscription;
 
@@ -178,6 +184,9 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
     }
 
     private void subscribeToSensor(String connectedSerial) {
+        MediaPlayer snare = MediaPlayer.create(this, R.raw.snare);
+        MediaPlayer bass = MediaPlayer.create(this, R.raw.bass);
+        MediaPlayer hihat = MediaPlayer.create(this, R.raw.hihat);
         // Clean up existing subscription (if there is one)
         if (mdsSubscription != null) {
             unsubscribe();
@@ -202,13 +211,22 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
                         if (sensorUI.getVisibility() == View.GONE)
                             sensorUI.setVisibility(View.VISIBLE);
 
+                        String huutis;
+
                         AccDataResponse accResponse = new Gson().fromJson(data, AccDataResponse.class);
                         if (accResponse != null && accResponse.body.array.length > 0) {
+                            if (Math.abs(accResponse.body.array[0].x) > 1 || Math.abs(accResponse.body.array[0].y) > 1) {
+                                huutis = "pam :D";
+                                snare.start();
+                            }
+                            else{
+                                huutis = "aika hiljasta :D";
+                            }
 
                             String accStr =
                                     String.format("%.02f, %.02f, %.02f", accResponse.body.array[0].x, accResponse.body.array[0].y, accResponse.body.array[0].z);
 
-                            ((TextView)findViewById(R.id.sensorMsg)).setText(accStr);
+                            ((TextView)findViewById(R.id.sensorMsg)).setText(accStr + huutis);
                         }
                     }
 
@@ -241,6 +259,58 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
 
     private void connectBLEDevice(MyScanResult device) {
         RxBleDevice bleDevice = getBleClient().getBleDevice(device.macAddress);
+
+        Log.i(LOG_TAG, "Connecting to BLE device: " + bleDevice.getMacAddress());
+        mMds.connect(bleDevice.getMacAddress(), new MdsConnectionListener() {
+
+            @Override
+            public void onConnect(String s) {
+                Log.d(LOG_TAG, "onConnect:" + s);
+            }
+
+            @Override
+            public void onConnectionComplete(String macAddress, String serial) {
+                for (MyScanResult sr : mScanResArrayList) {
+                    if (sr.macAddress.equalsIgnoreCase(macAddress)) {
+                        sr.markConnected(serial);
+                        break;
+                    }
+                }
+                mScanResArrayAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onError(MdsException e) {
+                Log.e(LOG_TAG, "onError:" + e);
+
+                showConnectionError(e);
+            }
+
+            @Override
+            public void onDisconnect(String bleAddress) {
+
+                Log.d(LOG_TAG, "onDisconnect: " + bleAddress);
+                for (MyScanResult sr : mScanResArrayList) {
+                    if (bleAddress.equals(sr.macAddress))
+                    {
+                        // unsubscribe if was subscribed
+                        if (sr.connectedSerial != null && sr.connectedSerial.equals(subscribedDeviceSerial))
+                            unsubscribe();
+
+                        sr.markDisconnected();
+                    }
+                }
+                mScanResArrayAdapter.notifyDataSetChanged();
+            }
+        });
+    }
+
+    public void connectToDrum(String macAddress) {
+        Map<String, String> drums = new HashMap<>();
+        drums.put("Snare", "0C:8C:DC:2C:4A:8B");
+        drums.put("Hi-Hat", "0C:8C:DC:2D:53:28");
+        drums.put("Bass", "0C:8C:DC:2C:4A:B7");
+        RxBleDevice bleDevice = getBleClient().getBleDevice(macAddress);
 
         Log.i(LOG_TAG, "Connecting to BLE device: " + bleDevice.getMacAddress());
         mMds.connect(bleDevice.getMacAddress(), new MdsConnectionListener() {

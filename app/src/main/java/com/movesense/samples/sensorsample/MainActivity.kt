@@ -4,6 +4,9 @@ import android.media.MediaPlayer
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.content.Intent
+
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,15 +27,19 @@ class MainActivity : AppCompatActivity() {
         val hihatButton = findViewById (R.id.hihat) as Button
 
         snareButton.setOnClickListener {
-            snare.start()
+            //ConnectActivity.connectToDrum("0C:8C:DC:2C4A:8B")
+            val intent = Intent(this@MainActivity, ConnectActivity::class.java)
+            startActivity(intent)
         }
 
         bassButton.setOnClickListener {
-            bass.start()
+            val intent = Intent(this@MainActivity, ConnectActivity::class.java)
+            startActivity(intent)
         }
 
         hihatButton.setOnClickListener {
-            hihat.start()
+            val intent = Intent(this@MainActivity, ConnectActivity::class.java)
+            startActivity(intent)
         }
     }
 
