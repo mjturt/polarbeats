@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         hihatButton.setOnClickListener {
             val intent = Intent(this@MainActivity, ConnectActivity::class.java)
+            intent.putExtra("macAddress", "0C:8C:DC:2B:53:28")
             startActivity(intent)
         }
     }
