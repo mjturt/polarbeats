@@ -40,15 +40,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        // DRUM MAC
         bassButton.setOnClickListener {
             val intent = Intent(this@MainActivity, ConnectActivity::class.java)
-            intent.putExtra("macAddress", "0C:8C:DC:2C:4A:B9")
+            intent.putExtra("macAddress", "0C:8C:DC:2C:4A:B7")
             startActivity(intent)
         }
 
         hihatButton.setOnClickListener {
             val intent = Intent(this@MainActivity, ConnectActivity::class.java)
+            intent.putExtra("macAddress", "0C:8C:DC:2B:53:28")
             startActivity(intent)
         }
     }
