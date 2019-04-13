@@ -2,6 +2,7 @@ package com.movesense.samples.sensorsample;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -81,9 +82,18 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
         // Initialize Movesense MDS library
         initMds();
 
-       // onScanClicked(null);
-       // connectToDrum(getIntent().getStringExtra("macAddress"));
+        String macAddress = getIntent().getStringExtra("macAddress");
+       if (macAddress != null && macAddress != "") {
+           connectToDrum(getIntent().getStringExtra("macAddress"));
+           onBackPressed("TEST");
+       }
+    }
 
+    public void onBackPressed(String status) {
+        Intent lol = getIntent();
+        lol.putExtra("status", status);
+        setResult(1, lol);
+        moveTaskToBack(true);
     }
 
     private RxBleClient getBleClient() {
@@ -321,22 +331,6 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
         });
     }
 
-    private void connectToDrums() {
-        Map<String, String> drums = new HashMap<>();
-        //drums.put("Snare", "0C:8C:DC:2C:4A:8B");
-        //drums.put("Hi-Hat", "0C:8C:DC:2B:53:28");
-        //drums.put("Bass", "0C:8C:DC:2C:4A:B7");
-        drums.put("Drum", "0C:8C:DC:2C:4A:B9");
-        drums.put("Temp", "0C:8C:DC:2C:4A:D5");
-
-        Iterator it = drums.values().iterator();
-
-        while (it.hasNext()) {
-            connectToDrum((String) it.next());
-        }
-
-    }
-
     private void connectToDrum(String macAddress) {
 
         RxBleDevice bleDevice = getBleClient().getBleDevice(macAddress);
@@ -360,6 +354,7 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
                 mScanResArrayAdapter.notifyDataSetChanged();
                 Log.d(LOG_TAG, "SUCCESS");
                 subscribeToSensor(serial);
+                passStatusBack(0);
             }
 
             @Override
@@ -412,5 +407,12 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
     }
     public void onUnsubscribeClicked(View view) {
         unsubscribe();
+    }
+
+    private void passStatusBack(int statusCode) {
+        Intent lol = getIntent();
+        lol.putExtra("status", statusCode);
+        setResult(statusCode, lol);
+        onBackPressed();
     }
 }
