@@ -3,7 +3,9 @@ package com.movesense.samples.sensorsample;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -78,9 +80,9 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
 
         // Initialize Movesense MDS library
         initMds();
-        onScanClicked(null);
+       // onScanClicked(null);
 
-        connectToDrum(getIntent().getStringExtra("macAddress"));
+      //  connectToDrum(getIntent().getStringExtra("macAddress"));
     }
 
     private RxBleClient getBleClient() {
@@ -188,9 +190,15 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
     }
 
     private void subscribeToSensor(String connectedSerial) {
-        MediaPlayer snare = MediaPlayer.create(this, R.raw.snare);
-        MediaPlayer bass = MediaPlayer.create(this, R.raw.bass);
-        MediaPlayer hihat = MediaPlayer.create(this, R.raw.hihat);
+        SoundPool snare = new SoundPool(5, AudioManager.STREAM_MUSIC, 0);
+        int snareSoundId = snare.load(this, R.raw.snare, 1);
+
+        SoundPool bass = new SoundPool(5, AudioManager.STREAM_MUSIC, 0);
+        int bassSoundId = bass.load(this, R.raw.bass, 1);
+
+        SoundPool hihat = new SoundPool(5, AudioManager.STREAM_MUSIC, 0);
+        int hihatSoundId = hihat.load(this, R.raw.hihat, 1);
+
         // Clean up existing subscription (if there is one)
         if (mdsSubscription != null) {
             unsubscribe();
@@ -218,16 +226,14 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
 
                         AccDataResponse accResponse = new Gson().fromJson(data, AccDataResponse.class);
                         if (accResponse != null && accResponse.body.array.length > 0) {
-                            if (Math.abs(accResponse.body.array[0].x) > 1 || Math.abs(accResponse.body.array[0].y) > 1) {
+                            if (Math.abs(accResponse.body.array[0].x) > 0.5 ) {
                                 if (connectedSerial.equals("191130000253")) {
-                                    snare.start();
+                                    snare.play(snareSoundId, 1, 1, 0, 0, 1);
                                 } else if (connectedSerial.equals("191130000271")) {
-                                    bass.start();
+                                    bass.play(bassSoundId, 1, 1, 0, 0, 1);
                                 } else if (connectedSerial.equals("190430000084")) {
-                                    hihat.start();
+                                    hihat.play(hihatSoundId, 1, 1, 0, 0, 1);
                                 }
-                            }
-                            else{
                             }
 
                             String accStr =
