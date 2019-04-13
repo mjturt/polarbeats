@@ -9,6 +9,12 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.widget.ImageView
 import android.support.v4.content.LocalBroadcastManager
+import android.widget.Toast
+import android.R
+
+
+
+
 
 
 
@@ -78,6 +84,13 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("macAddress", "0C:8C:DC:2B:53:28")
             startService(intent)
         }
+        val bv = StatusVar()
+        bv.setListener(object : StatusVar.ChangeListener() {
+            fun onChange() {
+                val img = findViewById(R.id.snare) as ImageView
+                img.setImageResource(R.drawable.my_image)
+            }
+        })
     }
 
 
