@@ -82,7 +82,8 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
         initMds();
 
        // onScanClicked(null);
-       // connectToDrum(getIntent().getStringExtra("macAddress"));
+        connectToDrum(getIntent().getStringExtra("macAddress"));
+        onBackPressed();
 
     }
 
