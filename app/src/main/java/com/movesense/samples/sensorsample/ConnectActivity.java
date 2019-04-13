@@ -80,9 +80,10 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
 
         // Initialize Movesense MDS library
         initMds();
-       // onScanClicked(null);
 
-      //  connectToDrum(getIntent().getStringExtra("macAddress"));
+       // onScanClicked(null);
+       // connectToDrum(getIntent().getStringExtra("macAddress"));
+
     }
 
     private RxBleClient getBleClient() {
@@ -228,7 +229,7 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
 
                         AccDataResponse accResponse = new Gson().fromJson(data, AccDataResponse.class);
                         if (accResponse != null && accResponse.body.array.length > 0) {
-                            if (Math.abs(accResponse.body.array[0].x) > 0.5 ) {
+                            if (Math.abs(accResponse.body.array[0].x) > 0.8 ) {
                                 if (connectedSerial.equals("191130000253")) {
                                     snare.play(snareSoundId, 1, 1, 0, 0, 1);
                                 } else if (connectedSerial.equals("191130000271")) {
