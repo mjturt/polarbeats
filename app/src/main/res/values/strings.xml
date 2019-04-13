@@ -6,7 +6,4 @@
         - click on &quot;Unsubscribe&quot; will unsubscribe from sensor data.\n
         - Long click on connected device will disconnect
     </string>
-    <color name="gradientStart">#ee8251</color>
-    <color name="gradientEnd">#e2476e</color>
-    <color name="navigationBar">#a83253</color>
 </resources>
