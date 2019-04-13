@@ -78,9 +78,12 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
 
         // Initialize Movesense MDS library
         initMds();
-        onScanClicked(null);
+
+        //onScanClicked(null);
 
         connectToDrum(getIntent().getStringExtra("macAddress"));
+
+        onBackPressed();
     }
 
     private RxBleClient getBleClient() {
@@ -122,12 +125,14 @@ public class ConnectActivity extends AppCompatActivity implements AdapterView.On
         mScanResArrayAdapter.notifyDataSetChanged();
 
         mScanSubscription = getBleClient().scanBleDevices(
-                new ScanSettings.Builder()
+                new ScanSettings
+                        .Builder()
                         // .setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY) // change if needed
                         // .setCallbackType(ScanSettings.CALLBACK_TYPE_ALL_MATCHES) // change if needed
                         .build()
                 // add filters if needed
         )
+
                 .subscribe(
                         scanResult -> {
                             Log.d(LOG_TAG,"scanResult: " + scanResult);
